@@ -8,13 +8,13 @@ export default function Home() {
 
   let title = "Meu primeiro Web App"
   const bullets_today = [
-    {type: 'event', title: "Momento sincrono sobre componentes react"},
-    {type: 'task', title: "Palavras chaves - bullet, github"}
+    {type: 'event', key: 1, title: "Momento sincrono sobre componentes react"},
+    {type: 'task', key: 2, title: "Palavras chaves - bullet, github"}
   ]
   const bullets_tomorrow = [
-    {type: 'task', title: 'Priorizar as palavras chaves'},
-    {type: 'task', title: 'Pesquisar imagens das princeipais palavras chaves'},
-    {type: 'task', title: 'Prototipar UI'}
+    {type: 'task', key: 1, title: 'Priorizar as palavras chaves'},
+    {type: 'task', key: 2, title: 'Pesquisar imagens das princeipais palavras chaves'},
+    {type: 'task', key: 3, title: 'Prototipar UI'}
   ]
 
   return (
